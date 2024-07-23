@@ -4,6 +4,7 @@ import InputField from './Components/InputField'
 import Alert from './Components/Alert'
 import ImageComp from './Components/ImageComp'
 import Subscribe from './Components/Subscribe'
+import UserCard from './Components/UserCard'
 
 const Day4 = () => {
   return (
@@ -13,7 +14,9 @@ const Day4 = () => {
     <Button type={"btn3"} hello={"meoww"}/>
     <InputField/>
     <ImageComp/>  */}
-    <Subscribe/>
+    {/* <Subscribe/> */}
+
+    <UserCard/>
     </div>
   )
 }
