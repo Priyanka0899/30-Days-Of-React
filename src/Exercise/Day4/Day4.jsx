@@ -9,14 +9,14 @@ import UserCard from './Components/UserCard'
 const Day4 = () => {
   return (
     <div>
-     {/* <Button type={"btn1"} hello={"Hiiiii"}/>
+     {/* {/* <Button type={"btn1"} hello={"Hiiiii"}/>
     <Button type={"btn2"} hello={"Bhoww"}/>
-    <Button type={"btn3"} hello={"meoww"}/>
+    <Button type={"btn3"} hello={"meoww"}/> */}
     <InputField/>
-    <ImageComp/>  */}
-    {/* <Subscribe/> */}
+    <ImageComp/>  
+    <Subscribe/> 
 
-    <UserCard/>
+     <UserCard/>
     </div>
   )
 }

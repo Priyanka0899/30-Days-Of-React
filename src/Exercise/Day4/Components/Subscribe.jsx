@@ -1,4 +1,5 @@
 import React from 'react'
+import Input from './Input'
 
 const Subscribe = () => {
   return (
@@ -7,9 +8,10 @@ const Subscribe = () => {
       <p style={{textAlign: 'center'}}>Sign Up with your email address to receive news and updates</p>
 
         <div style={{ display: 'flex', justifyContent: 'center', gap: 10, alignItems: 'center', margin: ''}}>
-        <input type='text' placeholder='First name' style={{borderRadius: '5px'}} ></input>
-        <input type='text' placeholder='Last name' style={{borderRadius: '5px'}} ></input>
-        <input type='text' placeholder='Email'  style={{borderRadius: '5px'}}   ></input>
+        <Input pr='First Name'/>
+        <Input pr='Last Name'/>
+        <Input pr='Email'/>
+
         </div>
         <div style={{textAlign: 'center'}}>
         <button style={{backgroundColor: 'red', color: 'white', borderRadius: '5px', padding : '5px', margin: '20px', width: '200px', cursor: 'pointer' }}  >Subscribe</button>

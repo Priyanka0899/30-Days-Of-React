@@ -1,0 +1,22 @@
+.imgs{
+    display: flex;
+    justify-content: center;
+    /* height: 100px;
+    width: 150px; */
+}
+h3{
+    text-align: center;
+}
+
+.hexa-container{
+    
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 10px 10px #d8d7d7;
+}
